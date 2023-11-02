@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    width: 1440px;
+    height: 620px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.first {
+    width: 320px;
+    height: 420px;
+    margin-left: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.second {
+    width: 320px;
+    height: 420px;
+    margin-right: 110px;
+    padding: 30px 40px;
+    background-color: hsl(0, 0%, 100%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1 {
+    width: 200px;
+    margin: 20px 0;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500; 
+    font-weight: 700;
+}
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    
+    
+}
+.adv {
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+    font-size: 18px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.p2 {
+    color: hsl(158, 36%, 37%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight:bolder;
+}
+.p1 {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+button {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%) ;
+}
+.fa-solid, .fas {
+    margin-right: 10px;
+}
+.container1 {
+    width: 375px;
+    height: 700px;
+    background-color: hsl(30, 38%, 92%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.mobile {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.second1 {
+    width: 300px;
+    height: 420px;
+    padding: 30px 40px;
+    background-color: hsl(0, 0%, 100%) ;
+    margin-top: -15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
