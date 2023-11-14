@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+    
+}
+.container {
+    background-color: hsl(30, 38%, 92%);
+    width: 375px;
+    margin: auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first {
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+    
+}
+.second {
+    width: 320px;
+    padding: 30px 20px;
+    background-color: hsl(0, 0%, 100%) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 20px 0;
+    color: hsl(212, 21%, 14%); 
+    font-weight: 700;
+    font-family: 'Fraunces', sans-serif;
+    
+}
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    
+    
+}
+p {
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.p2 {
+    color: hsl(158, 36%, 37%);
+    font-family:'Fraunces', sans-serif;
+    font-size: 20px;
+    font-weight:700;
+}
+.p1 {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+.p1 {
+    text-decoration: line-through;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%) ;
+    cursor: pointer;
+}
+.fa-solid, .fas {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
